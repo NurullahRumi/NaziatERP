@@ -16,4 +16,5 @@ public class CreateMemberDetailRequest {
     private Date joinDate;
     private String phNo;
     private String bloodGrp;
+
 }
