@@ -21,4 +21,5 @@ public class MemberDetailEntity extends BaseEntity{
     private Date joinDate;
     private String phNo;
     private String bloodGrp;
+
 }
