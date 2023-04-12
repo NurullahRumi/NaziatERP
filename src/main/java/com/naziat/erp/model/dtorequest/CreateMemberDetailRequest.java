@@ -4,10 +4,12 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.Date;
+import java.util.UUID;
 
 @Getter
 @Setter
 public class CreateMemberDetailRequest {
+    private UUID id;
     private String memberId;
     private String userId;
     private String fName;
